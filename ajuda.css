@@ -1,0 +1,147 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+:root{
+    --bar-color:#b2d1ff;
+    --text-color: #5770E1;
+}
+
+body{
+    background-color: #B2F7FF;
+    height: 1200px;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: var(--bar-color);
+    position: fixed;
+    border-bottom: solid 1.5px #163be0;
+}
+
+nav ul{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 170px;    
+}
+
+nav ul li a{
+    color: var(--text-color);
+}
+
+nav img{
+    width: 60px;
+    height: 60px;
+}
+
+nav img:hover{
+    width: 70px;
+    height: 70px;
+}
+
+.links:hover{
+    font-size: 28px;
+    padding: 8px 10px;
+    border-radius: 30px;
+    background-color: #163be0;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 170px;
+}
+
+main img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+main p{
+    font-size: 25px;
+}
+
+.text{
+    display: flex;
+    margin: 20px;
+}
+
+#title{
+    font-size: 35px;
+}
+
+footer{
+    background-color: var(--bar-color);
+    width: 100%;
+    height: 390px;
+    padding: 0px 170px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li{
+    display: flex;
+    align-items: center;
+}
+
+.acesso ul li a:hover{
+    font-size: 28px;
+    padding: 8px 10px;
+    border-radius: 30px;
+    background-color: #163be0;
+    color: white;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    margin:10px 10px;
+}
+
+.info p{
+    color: #002fff;
+    font-size: 15px;
+}
+
+.links_uteis{
+    display: flex;
+    flex-direction: column;
+}
+
+.links_uteis ul li{
+    padding: 5px;
+    
+}
+
+.links_uteis ul li a, p{
+    font-size: 20px;
+}
